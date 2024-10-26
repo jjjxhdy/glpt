@@ -1,0 +1,27 @@
+{
+  "name": "addam-koa",
+  "version": "2.0.0",
+  "description": "The high-precision 3D map engine server, written by addam, was created on November 10, 2022",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "High-precision",
+    "3D",
+    "map",
+    "engine"
+  ],
+  "author": "Addam-Holmes",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongodb": "^4.11.0",
+    "mosca": "^2.8.3",
+    "mysql": "^2.18.1",
+    "ws": "^8.11.0"
+  }
+}
